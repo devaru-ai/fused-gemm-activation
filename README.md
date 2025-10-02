@@ -32,7 +32,7 @@ The following figures illustrate kernel performance across block sizes and compa
   
 - **Figure 2:** Autotune results, showing best latency (ms) and TFLOPS for each block size.
 <div align="center">
-  <img src="figures/autotune_blk_lineplot_latency_tflops.png" alt="Autotune results" width="500"/>
+  <img src="figures/autotune_blk_lineplot_latency_tflops.png" alt="Autotune results" width="580"/>
 </div>
 
 
