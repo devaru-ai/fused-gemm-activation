@@ -62,6 +62,6 @@ python run_benchmarks.py
 
 ### Step 4: View the results
 
-The script will generate a summary table and save plots in the `benchmarks/` directory for you to view.
+The script will generate a summary table and save plots in the `benchmarks/` directory.
 
 
