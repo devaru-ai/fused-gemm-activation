@@ -53,15 +53,25 @@ Install the necessary Python libraries.
 pip install torch numpy matplotlib triton
 ```
 
-### Step 3: Run the benchmark
+### Step 3: Compile the CUDA kernel (for fused GEMM)
+
+```
+cd kernels
+nvcc -c -o cuda_fused_gemm.o cuda_fused_gemm.cu
+```
+### Step 4: Run the benchmark
 
 Run the benchmarking script to execute and time GEMM kernels (cuBLAS and Triton) across various configurations.
 ```
+cd ../benchmarks
 python run_benchmarks.py
 ```
 
-### Step 4: View the results
+### Step 5: View the results
 
 The script will generate a summary table and save plots in the `benchmarks/` directory.
+
+
+
 
 
